@@ -1,0 +1,16 @@
+{
+  "name": "avlyalin/php-design-patterns",
+  "type": "project",
+  "require-dev": {
+    "phpunit/phpunit": "^8.5"
+  },
+  "autoload": {
+    "psr-4": {
+      "Patterns\\": "Patterns/",
+      "Tests\\": "tests/"
+    }
+  },
+  "require": {
+    "ext-json": "*"
+  }
+}
